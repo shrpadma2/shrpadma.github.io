@@ -1,1 +1,0 @@
-# shrpadma.github.io
