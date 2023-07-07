@@ -144,14 +144,24 @@
 
 <style>
   .experience-item {
-    flex-basis: 25%;
+    flex-basis: 100%;
     padding: 10px;
+    max-width: 25%;
+    box-sizing: border-box;
   }
 
   .transparent-box {
     background-color: #2c2c6c;
     padding: 20px;
     border-radius: 5px;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  @media (min-width: 768px) {
+    .experience-container {
+      flex-wrap: wrap;
+    }
   }
 </style>
 
