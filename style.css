@@ -60,7 +60,10 @@ body {
 
 /* Home Section */
 
-.home-left,
+.home-left {
+   padding: 2rem;
+}
+
 .home-right {
     width: 48%;
     padding: 2rem;
@@ -295,16 +298,10 @@ h4 {
    width: 200px;
 }
 
-.p-three{
-    background: url('project.png');    
-}
-.p-four{
-    background: url('project.png');    
-}
-
 .projects-item {
     overflow: hidden;
     width: 20rem;
+    height: 28rem;
     margin: 1rem;
     /* height: 50vh; */
     background: #2c2c6c;
